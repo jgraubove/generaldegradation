@@ -1,4 +1,4 @@
-# Collection Degradation Model
+# General Collection Degradation Model
 
 ## Overview
 This repository contains the implementation of a collection degradation model written in R. The model simulates the behavior of a population of agents (representing objects in a collection) over multiple years, taking into account continuous degradation and adverse events.
@@ -71,7 +71,7 @@ time_until_event <- rweibull(1, shape = 1, scale = mean_time)
 In this snippet, `mean_time` is a random mean time before an adverse event, sampled from the specified range. The `rweibull` function then generates a random deviate from a Weibull distribution with shape parameter 1 and scale parameter equal to the sampled mean time. This sampled time until event occurrence determines whether an adverse event will happen in the current year.
 
 ## License
-This project is licensed under the GNU License. See the LICENSE file for details.
+This project is licensed under the GPL License. See the LICENSE file for details.
 
 ## Contributing
 Contributions are welcome! Please open an issue or submit a pull request for any improvements or bug fixes.
